@@ -9,3 +9,119 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0b0d3c;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: #0b0d3c; /* supaya nav tetap solid */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* ini dia si bayangan */
+    position: sticky; /* opsional, biar nempel di atas */
+    top: 0;
+    z-index: 10;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo span {
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    flex-wrap: wrap; /* agar bisa wrap di layar kecil */
+    gap: 2rem; /* jarak antar elemen */
+}
+
+.hero-text {
+    flex: 1 1 400px;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.hero-text p {
+    line-height: 1.6;
+    color: #d0d0d0;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    flex: 1 1 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img{
+    max-width: 100%;
+    
+}
+
+.hero-image img:first-child {
+    position: absolute;
+    z-index: 1;
+    width: 70%;
+    top: 0;
+    transform: translateX(36%);
+    -webkit-transform: translateX(36%);
+    -moz-transform: translateX(36%);
+    -ms-transform: translateX(36%);
+    -o-transform: translateX(36%);
+}
+
+.hero-image img:last-child {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 600px;
+    transform: translateX(10%);
+    -webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+}
