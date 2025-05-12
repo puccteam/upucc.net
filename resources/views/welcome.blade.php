@@ -30,6 +30,7 @@
                 <img src="{{ asset('images/7.png') }}" alt="Ilustrasi Laptop">
 
             </div>
+
         </div>
     </header>
 </body>
