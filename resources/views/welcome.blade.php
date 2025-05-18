@@ -35,7 +35,7 @@
     
 
     <!-- NAVBAR SUBSECTION -->
-<nav class="sub-navbar">
+    <nav class="sub-navbar">
     <ul>
         <li><a href="#knowledge">Knowledge Technology</a></li>
         <li><a href="#multimedia">Multimedia</a></li>
@@ -90,6 +90,38 @@
         </div>
     </div>
 </section>
+
+<section id="struktur" class="leadership-section">
+    <h2>STRUKTUR KEPEMIMPINAN</h2>
+        <p>Universitas Potensi Utama<br>Computer Club</p>
+
+    <div class="carousel-container">
+        <button class="carousel-btn left" onclick="scrollCarousel('left')">&#10094;</button>
+
+    <div class="carousel" id="leadershipCarousel">
+        <div class="member">
+        <div class="photo"></div>
+        <p>KETUA UMUM</p>
+    </div>
+        <div class="member">
+        <div class="photo"></div>
+        <p>WAKIL KETUA UMUM</p>
+    </div>
+    <div class="member">
+        <div class="photo"></div>
+        <p>KADIV</p>
+    </div>
+        <div class="member">
+        <div class="photo"></div>
+        <p>WAKADIV</p>
+    </div>
+    <!-- Tambah lagi kalau ada -->
+    </div>
+
+        <button class="carousel-btn right" onclick="scrollCarousel('right')">&#10095;</button>
+    </div>
+</section>
+
 
 </body>
 </html>
