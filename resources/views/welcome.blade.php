@@ -29,6 +29,7 @@
                 <!-- <img src="{{ asset('images/polygon.png') }}" alt="shadow"> -->
                 <img src="{{ asset('images/7.png') }}" alt="Ilustrasi Laptop">
             </div>
+
         </div>
     </header>
     
