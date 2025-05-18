@@ -12,6 +12,7 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -19,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #0b0d3c;
+    background-color: #000235;
     color: white;
 }
 
@@ -28,11 +29,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 4rem;
-    background-color: #0b0d3c; /* supaya nav tetap solid */
+    background-color: #0c0c3f; /* supaya nav tetap solid */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* ini dia si bayangan */
     position: sticky; /* opsional, biar nempel di atas */
     top: 0;
-    z-index: 10;
+    z-index: 1000;
 }
 
 
@@ -124,4 +125,111 @@ body {
     -moz-transform: translateX(10%);
     -ms-transform: translateX(10%);
     -o-transform: translateX(10%);
+}
+
+/* Sub Navbar */
+.sub-navbar {
+    background-color: #090C5D;
+    width: 80%;
+    padding: 1rem 0;
+    margin: 2rem auto;
+    border-radius: 0.8rem;
+    position: sticky;
+    top: 0;
+    /* z-index: 1000; */
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+
+.sub-navbar ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-navbar ul li {
+    font-size: 1.3rem;
+}
+
+.sub-navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+.sub-navbar a:hover {
+    color: #00bcd4;
+}
+
+/* Categories */
+.categories {
+    background-color: #000235;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    gap: 10rem;
+    scroll-margin-top: 50px;
+}
+
+
+.category-item .text {
+    flex: 1;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.category-item .text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.category-item .text p {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.category-item .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.category-item .image img {
+    width: 180px;
+    max-width: 100%;
+}
+
+.btn-small {
+    font-size: 0.75rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+    background-color: white;
+    color: #0c0c3f;
 }

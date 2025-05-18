@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UPUCC Landing Page</title>
+    <title>UPUCC</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -28,9 +28,67 @@
             <div class="hero-image">
                 <!-- <img src="{{ asset('images/polygon.png') }}" alt="shadow"> -->
                 <img src="{{ asset('images/7.png') }}" alt="Ilustrasi Laptop">
-
             </div>
         </div>
     </header>
+    
+
+    <!-- NAVBAR SUBSECTION -->
+<nav class="sub-navbar">
+    <ul>
+        <li><a href="#knowledge">Knowledge Technology</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#security">Network Security</a></li>
+        <li><a href="#programming">Programming</a></li>
+    </ul>
+</nav>
+
+<!-- KATEGORI SECTION -->
+<section class="categories">
+    <div class="category-item" id="knowledge">
+        <div class="text">
+            <h2>KNOWLEDGE TECHNOLOGY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores odit laborum pariatur voluptatibus libero doloribus a hic. Deleniti, obcaecati! Error odio adipisci iste, vitae ad ex nemo maiores suscipit harum saepe perferendis aliquid ab similique quasi ratione aliquam itaque consectetur porro numquam incidunt assumenda, libero excepturi! Corrupti, voluptatum quos.</p>
+            <a href="#" class="btn-small">Selengkapnya</a>
+        </div>
+        <div class="image">
+            <img src="{{ asset('images/6.png') }}" alt="Robot">
+        </div>
+    </div>
+
+    <div class="category-item reverse" id="multimedia">
+        <div class="image">
+            <img src="{{ asset('images/5.png') }}" alt="Multimedia">
+        </div>
+        <div class="text">
+            <h2>MULTIMEDIA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores odit laborum pariatur voluptatibus libero doloribus a hic. Deleniti, obcaecati! Error odio adipisci iste, vitae ad ex nemo maiores suscipit harum saepe perferendis aliquid ab similique quasi ratione aliquam itaque consectetur porro numquam incidunt assumenda, libero excepturi! Corrupti, voluptatum quos.</p>
+            <a href="#" class="btn-small">Selengkapnya</a>
+        </div>
+    </div>
+
+    <div class="category-item" id="security">
+        <div class="text">
+            <h2>NETWORK SECURITY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores odit laborum pariatur voluptatibus libero doloribus a hic. Deleniti, obcaecati! Error odio adipisci iste, vitae ad ex nemo maiores suscipit harum saepe perferendis aliquid ab similique quasi ratione aliquam itaque consectetur porro numquam incidunt assumenda, libero excepturi! Corrupti, voluptatum quos.</p>
+            <a href="#" class="btn-small">Selengkapnya</a>
+        </div>
+        <div class="image">
+            <img src="{{ asset('images/4.png') }}" alt="Security">
+        </div>
+    </div>
+
+    <div class="category-item reverse" id="programming">
+        <div class="image">
+            <img src="{{ asset('images/3.png') }}" alt="Programming">
+        </div>
+        <div class="text">
+            <h2>PROGRAMMING</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores odit laborum pariatur voluptatibus libero doloribus a hic. Deleniti, obcaecati! Error odio adipisci iste, vitae ad ex nemo maiores suscipit harum saepe perferendis aliquid ab similique quasi ratione aliquam itaque consectetur porro numquam incidunt assumenda, libero excepturi! Corrupti, voluptatum quos.</p>
+            <a href="#" class="btn-small">Selengkapnya</a>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
