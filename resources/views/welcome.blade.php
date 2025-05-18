@@ -100,19 +100,19 @@
 
     <div class="carousel" id="leadershipCarousel">
         <div class="member">
-        <div class="photo"></div>
+        <div class="photo" style="background-image: url('{{ asset('images/1.png') }}'); background-size: cover;"></div>
         <p>KETUA UMUM</p>
     </div>
         <div class="member">
-        <div class="photo"></div>
-        <p>WAKIL KETUA UMUM</p>
+        <div class="photo" style="background-image: url('{{ asset('images/1.png') }}'); background-size: cover;"></div>
+        <p>WAKIL KETUA</p>
     </div>
     <div class="member">
-        <div class="photo"></div>
+        <div class="photo" style="background-image: url('{{ asset('images/1.png') }}'); background-size: cover;"></div>
         <p>KADIV</p>
     </div>
         <div class="member">
-        <div class="photo"></div>
+        <div class="photo" style="background-image: url('{{ asset('images/1.png') }}'); background-size: cover;"></div>
         <p>WAKADIV</p>
     </div>
     <!-- Tambah lagi kalau ada -->
